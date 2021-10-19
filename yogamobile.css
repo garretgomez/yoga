@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Spicy+Rice&display=swap');
+@media only screen  and (max-width: 500px){
+    body{
+        background-attachment:scroll;
+    }
+    
+    
+    .showcase nav{
+        padding: 20px;
+        flex-direction: column;
+    }
+    .heading{
+        padding-top: 90px;
+    }
+   .toggle{
+       display:flex;
+   }
+   .nav{
+       display: none;
+       width: 100%;
+       background-color:#ffd89b;  
+   }
+   .nav ul{
+       flex-direction: column;
+       width: 100%;
+   }
+   .nav ul li{
+       text-align: center;
+       padding: 0.5rem;
+   }
+   .nav.active{
+       display: flex;
+   }
+
+
+    ul li{
+        padding: 5px;
+    }
+    .wrapper{
+        padding-top: 110vh;
+    }
+    .wrapper h2{
+        font-size: 40px;
+    }
+    .subwrapper div{
+        padding: 2rem;
+        line-height: 15px;
+    }
+    .subwrapper h3{
+        font-size: 22px;
+        padding: 10px;
+    }
+    .subwrapper p{
+        font-size: 14px;
+        padding-bottom: 10px;
+    }
+    .blue{
+        padding: 1rem 0.5rem;
+    }
+    .card{
+        grid-template-columns: 1fr;
+        padding: 10px;
+        animation: slideInFromLeft 0s ease-in;
+    }
+    .card .desc{
+        padding: 25px 10px;
+    }
+    .subwrapper{
+        grid-template-columns: 1fr;
+        animation: slideInFromRight 0s ease-in;
+    }
+    .subwrapper div img{
+        max-width: 225px;
+        width: 100%;
+        max-height: 150px;
+        height: 100%;
+    }
+
+    .subcontainer{
+        grid-template-columns: 1fr;
+    }
+    #yimg{
+        justify-self: center;
+        max-width: 500px;
+        animation: slideInFromLeft 0s ease-in;
+    }
+    #yimg img{
+        max-width: 310px;
+    }
+    .sample{
+        animation: slideInFromRight 0s ease-in;
+    }
+
+    #banner{
+        padding: 1rem;
+        width: 100%;
+    }
+    #banner .purple-container{
+        grid-template-columns: 1fr;
+    }
+    .purple p{
+        line-height: 25px;
+    }
+
+    .subsection{
+        grid-template-columns: 1fr;
+    }
+
+    .email{
+        grid-template-columns: 1fr;
+    }
+
+    .footcontainer{
+        grid-template-columns: 1fr;
+    }
+}
+
+@media only screen and (max-width: 1000px){
+   
+    #header{
+        padding: 1rem;
+        max-width: 700px;
+    }
+    #header .purple-container{
+        grid-template-columns: 1fr;
+    }
+    .wrapper{
+        max-width: 800px;
+    }
+    .blue{
+        padding: 1rem;
+        grid-template-columns: 1fr;
+    }
+    #live{
+        max-width: 300px;
+    }
+
+    .subwrapper div{
+        max-width: 300px;
+        line-height: 20px;
+    }
+    .subwrapper div img{
+        max-width: 200px;
+        max-height: 200px;
+    }
+}
